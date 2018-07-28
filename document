@@ -17,3 +17,22 @@ Spring Data JPA
 . You extend a Java Repository Interface
 . Spring Data JPA provides the implementation at run time.
 . No SQL required.
+
+
+MVC
+---------------------------
+Spring Controller
+
+. Annotate Controller Class with @Controller
+ . This will register the class as a spring Bean and as a Controller in Spring MVC
+ 
+. To map methods to http request paths use @RequestMapping
+
+
+Opinionated Design
+---------------------------------------
+. Opinionated-- There is one way of doing things.
+. Un-Opinionated - You are open to doing things anyway you like.
+. Spring Boot - Bring a number of 'Opinionated' default 
+  configuration
+  . Thus using spring boot is following an opinionated design
