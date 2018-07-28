@@ -1,0 +1,19 @@
+Spring Data Repository
+--------------------------
+
+. Provide a Implementation of the repository pattern
+. Concept is originally from Erics'book Domain Driven Design 
+
+. A Repository has methods for retrieving domain objects should delegate to a specialized Repository
+  object such that alternative storage implementations may be interchanged.
+. This is important. It allows you to easily substitute the persistence layer 
+. i.e going from SQL to NoSQL
+
+Spring Data JPA
+----------------------
+. Spring Data JPA is part of a layer family of Spring Data Projects.
+. Uses Hibernate for persistence to supported RDBS systems.
+ . Just about any major relational database.
+. You extend a Java Repository Interface
+. Spring Data JPA provides the implementation at run time.
+. No SQL required.
